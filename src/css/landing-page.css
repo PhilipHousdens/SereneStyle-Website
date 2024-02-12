@@ -5,6 +5,7 @@
     --gold-color:#D8C08D;
     --pink-color: #F4CCCC;
     --navy-color: #0E0B34;
+    --grey-color: #cccc;
 }
 
 body {
@@ -22,9 +23,13 @@ body {
 
 .nav-item {
     color: black !important;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     font-weight: bold;
     font-size: 16px;
+}
+
+.navbar-nav {
+    justify-content: center;
 }
 
 .input-icons img {
@@ -40,3 +45,25 @@ body {
     width: 200px !important;
 }
 
+.input-icons input {
+    background-color: var(--grey-color);
+    border-radius: 25px;
+}
+
+.shopping-cart-icons {
+    width: 20px;
+    height: 20px;
+    margin: auto 15px;
+}
+
+.right-corner {
+    padding: 0 2rem;
+}
+
+.login-btn {
+    background-color: var(--theme-color) !important;
+    color: black !important;
+    width: 100px;
+    border: none !important;
+    border-radius: 25px !important;
+}
