@@ -73,3 +73,9 @@ body {
     border: none !important;
     border-radius: 25px !important;
 }
+
+.fit-height {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.2rem;
+}
