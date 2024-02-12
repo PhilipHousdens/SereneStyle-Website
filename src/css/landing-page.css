@@ -1,0 +1,13 @@
+:root {
+    --theme-color: #E6D2A8;
+    --gold-color:#D8C08D;
+    --pink-color: #F4CCCC;
+    --navy-color: #0E0B34;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    font-family: 'Inria', sans-serif;
+}
