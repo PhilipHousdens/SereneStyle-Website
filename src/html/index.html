@@ -52,8 +52,8 @@
           </div>
         </div>
         <form class="d-flex right-corner" role="search">
-          <div class="input-icons">
-            <img class="d-flex" src="../icons/search 1.png" alt="search_icon" />
+          <div id="input-icons">
+            <img class="search-icon" src="../icons/search 1.png" alt="search_icon" />
             <input
               class="form-control me-2"
               type="search"
@@ -75,5 +75,19 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script>
+        var searchInput = document.querySelector('.form-control');
+        var searchIcon = document.querySelector('.search-icon');
+
+        searchInput.addEventListener('click', function() {
+            searchIcon.style.display = 'none';
+        });
+
+        searchInput.addEventListener('blur', function() {
+            if (this.value.trim() === '') {
+                searchIcon.style.display = 'block';
+            }
+        });
+    </script>
   </body>
 </html>

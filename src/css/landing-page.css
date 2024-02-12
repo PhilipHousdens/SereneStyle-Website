@@ -32,22 +32,28 @@ body {
     justify-content: center;
 }
 
-.input-icons img {
+#input-icons img {
     position: absolute;
     padding: 10px;
     width: 35px;
     min-width: 16px;
 }
 
-.input-icons {
+#input-icons {
     height: 30px;
     align-items: center;
     width: 200px !important;
 }
 
-.input-icons input {
+#input-icons input {
     background-color: var(--grey-color);
     border-radius: 25px;
+}
+
+#input-icons input::after {
+    img {
+        display: none;
+    }
 }
 
 .shopping-cart-icons {
