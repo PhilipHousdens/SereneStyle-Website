@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,400;0,700;1,300&display=swap');
+
 :root {
     --theme-color: #E6D2A8;
     --gold-color:#D8C08D;
@@ -9,5 +11,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F4F4F4;
-    font-family: 'Inria', sans-serif;
+    font-family: 'Inria Serif', serif !important;
+}
+
+.navbar-brand {
+    color: var(--theme-color) !important;
 }
